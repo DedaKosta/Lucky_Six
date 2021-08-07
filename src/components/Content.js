@@ -1,5 +1,6 @@
 import React from 'react'
 import Number from './Number'
+import NumberInner from './NumberInner'
 
 const Content = () => {
     return (
@@ -11,7 +12,7 @@ const Content = () => {
                     <Number number='' value='5.000' />
                     <Number number='' value='2.500' />
                     <Number number='' value='1.000' />
-                    <Number number='' value='500' />
+                    <Number bonus={true} number='' value='500' />
                     <Number number='' value='300' />
                     <Number number='' value='200' />
                 </div>
@@ -29,7 +30,11 @@ const Content = () => {
 
                     </div>
                     <div className='first-numbers-cont'>
-
+                        <NumberInner class='inner-number-circle1' number='' value='10.000' />
+                        <NumberInner class='inner-number-circle2' number='' value='7.500' />
+                        <NumberInner class='inner-number-circle3' number='' value='5.000' />
+                        <NumberInner class='inner-number-circle4' number='' value='2.500' />
+                        <NumberInner class='inner-number-circle5' number='' value='1.000' />
                     </div>
                 </div>
                 <div className='numbers-middle-cont'>

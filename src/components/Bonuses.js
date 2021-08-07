@@ -10,7 +10,7 @@ const Bonuses = () => {
             <div className='bonuses-separator'></div>
             <div className='bronze-bonus-cont'>
                 <p className='bronze-bonus-name'>🤎 Bronze Bonus 🤎</p>
-                <p className='bronze-bonus-value'>124.359,74</p>
+                <p className='bronze-bonus-value'>9.374,57</p>
             </div>
         </div>
     )
